@@ -6,6 +6,8 @@ This project is a simple to-do list application built with React. The main objec
 
 :warning: Please note that the application DOES NOT include any persistence mechanism, meaning the tasks are not saved when the page is refreshed or closed.
 
+![To Do List Interface](result/ToDo_List_Interface_final_result.png)
+
 ## :sparkles: Features
 
 - Simple Interface: the user interface is designed to be very simple and easy to use.
