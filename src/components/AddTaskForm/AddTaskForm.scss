@@ -1,0 +1,20 @@
+@use '../../styles/variables' as v;
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.task-name-input {
+  width: 30%;
+  padding-left: 10px;
+  font-size: 0.8rem;
+}
+
+.task-name-input::placeholder {
+  font-style: italic;
+  color: grey;
+}

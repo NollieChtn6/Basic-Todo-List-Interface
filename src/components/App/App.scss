@@ -1,0 +1,83 @@
+@use '../../styles/variables' as v;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  background-color: v.$color-default-bg;
+}
+
+.App-header-container {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  justify-content: center;
+  background-color: v.$color-default-main;
+}
+
+.App-header-title {
+  display: flex;
+  align-self: center;
+  color: v.$color-default-text-darker-bg;
+}
+
+.App-header-subtitle {
+  display: flex;
+  align-self: center;
+  color: v.$color-default-text-darker-bg;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: v.$color-default-bg;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  background-color: v.$color-default-main;
+  position: relative;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.footer-content {
+  color: v.$color-default-text-darker-bg;
+}
+
+.separator-medium {
+  height: 1.5rem;
+  // background-color: plum;
+}
+
+.separator-small {
+  height: 1rem;
+  // background-color: blueviolet;
+}
+
+.btn {
+  font-weight: 0;
+  color: v.$color-default-text-darker-bg;
+  background-color: v.$color-default-btn;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: v.$color-default-btn-hover;
+  color: v.$color-default-text-darker-bg;
+  border: none;
+}

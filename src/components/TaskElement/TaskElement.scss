@@ -1,0 +1,39 @@
+@use '../../styles/variables' as v;
+
+.checkbox-container {
+  border: none;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: row;
+  background-color: v.$color-default-element-bg;
+  border: 0.8px solid grey;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0.8rem;
+  margin: 5px;
+}
+
+.task-container.complete {
+  background-color: v.$color-default-elementIsInactive;
+}
+
+.task-title.complete {
+  width: 50%;
+  text-align: left;
+  color: v.$color-default-textIsInactive;
+  text-decoration: line-through;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  justify-content: space-between;
+  margin-left: auto;
+}

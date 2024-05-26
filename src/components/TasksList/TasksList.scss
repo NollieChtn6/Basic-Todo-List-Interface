@@ -1,0 +1,10 @@
+@use '../../styles/variables' as v;
+
+.tasks-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  height: 60vh;
+  overflow: scroll;
+}
