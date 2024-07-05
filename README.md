@@ -6,7 +6,7 @@ This project is a simple to-do list application built with React. The main objec
 
 :warning: Please note that the application DOES NOT include any persistence mechanism, meaning the tasks are not saved when the page is refreshed or closed.
 
-![To Do List Interface](result/ToDo_List_Interface_final_result.png)
+![To Do List Interface](result/todo_list_interface_final_result.png)
 
 ## :sparkles: Features
 
@@ -24,14 +24,14 @@ This project is a simple to-do list application built with React. The main objec
 
 ## :rocket: How to run the project?
 
-1) Clone the repository.
-2) Install dependencies by running the following command:
+1. Clone the repository.
+2. Install dependencies by running the following command:
 
 ```bash
 npm install
 ```
 
-3) Start the development server:
+3. Start the development server:
 
 ```bash
 npm run dev
@@ -39,4 +39,4 @@ npm run dev
 
 The application will be available at http://localhost:3173.
 
-4) Enjoy :smile:.
+4. Enjoy :smile:.
